@@ -1,0 +1,33 @@
+Project Overview
+This project features an interactive Power BI dashboard designed to analyze retail sales performance across multiple dimensions. The primary goal was to transform raw sales data into actionable business insights, focusing on revenue trends, customer demographics, and product category performance.
+
+Key Features & Insights
+Executive Summary: High-level KPIs showing a Total Amount of 456K and a Total Quantity of 3K items sold.
+
+Sales Performance: A gauge chart visualizing the Sum of Price per Unit (180K) against targets, and a column chart tracking Total Amount by Month to identify seasonal peaks.
+
+Demographic Analysis: A donut chart illustrating the Average Age by Product Category (e.g., Electronics at ~41.95) and a pie chart showing the Product Category distribution by Gender.
+
+Product Deep Dive: A bar chart comparing the volume of sales across Clothing, Electronics, and Beauty categories.
+
+Interactive Filtering: Built-in slicers for Year (2023-2024) allowing users to drill down into specific timeframes.
+
+Technical Toolkit
+
+Power BI Desktop: Used for the primary visualization and dashboard design.
+
+
+Power Query: Leveraged for data cleaning and transformation (ETL processes).
+
+
+DAX (Data Analysis Expressions): Implemented for creating calculated measures like "Sum of Total Amount" and "Total Quantity".
+
+
+Data Modeling: Established relationships within the retail_sales_dataset to ensure accurate cross-filtering between visuals.
+
+How to View
+Download the .pbix file from this repository.
+
+Open it using Power BI Desktop.
+
+Interact with the slicers and visuals to explore the data dynamically.
